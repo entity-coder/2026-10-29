@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">ClassManager</string>
+    <string name="student_detail_title">Student details</string>
+    <string name="test_detail_title">Test marks</string>
+    <string name="fee_plans_title">Fee plans</string>
+
+    <!-- Tabs -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_students">Students</string>
+    <string name="nav_attendance">Attendance</string>
+    <string name="nav_tests">Tests</string>
+    <string name="nav_fees">Fees</string>
+
+    <!-- Shared -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="all_batches">All batches</string>
+
+    <!-- Students -->
+    <string name="add_student">Add student</string>
+    <string name="edit_student">Edit student</string>
+    <string name="student_invalid">Enter a name, a batch, and an admission date as yyyy-MM-dd.</string>
+    <string name="student_hidden">Student hidden</string>
+    <string name="student_shown">Student shown again</string>
+    <string name="cannot_delete_student">This student has payments, attendance, or marks, so hide them instead of deleting.</string>
+    <string name="delete_student">Delete student</string>
+    <string name="delete_student_message">The student will be deleted permanently. This is only offered when they have no history at all.</string>
+    <string name="no_payments_yet">No payments recorded yet for this student.</string>
+    <string name="payment_invalid">Enter an amount above zero and a date as yyyy-MM-dd.</string>
+    <string name="payment_recorded">Payment recorded — receipt %1$s</string>
+    <string name="record_payment">Record payment</string>
+    <string name="record">Record</string>
+    <string name="receipt_failed">Could not create the receipt PDF.</string>
+    <string name="share_receipt">Share receipt</string>
+
+    <!-- Attendance -->
+    <string name="attendance_none_marked">Nothing marked for this date yet.</string>
+    <string name="attendance_summary">%1$d of %2$d marked present</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="not_marked">Not marked</string>
+
+    <!-- Tests -->
+    <string name="add_test">Add test</string>
+    <string name="test_invalid">Enter a test name, max marks above zero, and a date as yyyy-MM-dd.</string>
+    <string name="delete_test">Delete test</string>
+    <string name="delete_test_message">The test and all its marks will be deleted.</string>
+    <string name="mark_out_of_range">Marks must be between 0 and %1$s.</string>
+    <string name="mark_saved">Mark saved</string>
+    <string name="no_active_students">No active students to mark.</string>
+    <string name="marks_summary">%1$d of %2$d students scored</string>
+    <string name="not_scored">Not scored yet</string>
+    <string name="scored">Scored %1$s / %2$s</string>
+    <string name="enter_number">Enter a number</string>
+
+    <!-- Fees -->
+    <string name="total_dues_value">Total dues: %1$s</string>
+    <string name="no_plan">No fee plan for this batch</string>
+    <string name="plan_line">%1$s / month x %2$d month(s)</string>
+    <string name="paid_line">Paid: %1$s</string>
+    <string name="dues_unknown">Dues: unknown (no plan)</string>
+    <string name="due_line">Due: %1$s</string>
+    <string name="add_plan">Add fee plan</string>
+    <string name="edit_plan">Edit fee plan</string>
+    <string name="plan_invalid">Enter a batch name and a monthly fee above zero.</string>
+    <string name="delete_plan">Delete fee plan</string>
+    <string name="delete_plan_message">Students in this batch will show dues as unknown until a new plan is added.</string>
+
+    <string-array name="payment_methods">
+        <item>Cash</item>
+        <item>UPI</item>
+        <item>Card</item>
+        <item>Bank</item>
+    </string-array>
+</resources>

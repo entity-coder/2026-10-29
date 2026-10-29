@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Class at a glance"
+        android:textSize="22sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/studentsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Active students"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/studentCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="20sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/collectedLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Fees collected (all time)"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/feesCollected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="20sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/duesLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Total dues"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/totalDues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="20sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/attendanceLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Attendance today"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/todayAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="—"
+        android:textSize="20sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/todayAttendanceLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/noPlanNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/defaultersLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Largest dues — follow up first"
+        android:textSize="16sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/noDefaulters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="No dues — everyone is paid up."
+        android:textSize="16sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/defaulterList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
+</ScrollView>
